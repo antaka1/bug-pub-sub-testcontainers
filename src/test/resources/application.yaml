@@ -1,0 +1,14 @@
+topics:
+  name: my-topic-id
+logging:
+  level:
+    root: INFO
+spring:
+  cloud:
+    gcp:
+      project-id: integration-project
+      emulator-host: 0.0.0.0:8085
+      trace:
+        enabled: false
+      logging:
+        enabled: false

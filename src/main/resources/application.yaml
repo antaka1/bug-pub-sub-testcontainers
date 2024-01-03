@@ -1,0 +1,10 @@
+topics:
+  name: test-topic
+spring:
+  application:
+    name: bug-pub-sub-testcontainers
+  cloud:
+    gcp:
+      project-id: ${GCP_PROJECT_ID}
+      credentials:
+        location: ${GCP_CREDENTIALS}
